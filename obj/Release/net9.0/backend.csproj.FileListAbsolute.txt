@@ -95,3 +95,9 @@ C:\xampp\htdocs\hidnre\backend\backend\bin\Release\net9.0\out\out\out\out\out\ap
 C:\xampp\htdocs\hidnre\backend\backend\bin\Release\net9.0\out\out\out\out\out\backend.deps.json
 C:\xampp\htdocs\hidnre\backend\backend\bin\Release\net9.0\out\out\out\out\out\backend.runtimeconfig.json
 C:\xampp\htdocs\hidnre\backend\backend\bin\Release\net9.0\out\out\out\out\out\backend.staticwebassets.endpoints.json
+C:\xampp\htdocs\hidnre\backend\backend\bin\Release\net9.0\out\out\out\out\out\out\web.config
+C:\xampp\htdocs\hidnre\backend\backend\bin\Release\net9.0\out\out\out\out\out\out\appsettings.Development.json
+C:\xampp\htdocs\hidnre\backend\backend\bin\Release\net9.0\out\out\out\out\out\out\appsettings.json
+C:\xampp\htdocs\hidnre\backend\backend\bin\Release\net9.0\out\out\out\out\out\out\backend.deps.json
+C:\xampp\htdocs\hidnre\backend\backend\bin\Release\net9.0\out\out\out\out\out\out\backend.runtimeconfig.json
+C:\xampp\htdocs\hidnre\backend\backend\bin\Release\net9.0\out\out\out\out\out\out\backend.staticwebassets.endpoints.json

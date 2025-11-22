@@ -1,4 +1,5 @@
 C:\xampp\htdocs\hidnre\backend\backend\out\backend.exe
+C:\xampp\htdocs\hidnre\backend\backend\out\out\out\out\out\out\out\web.config
 C:\xampp\htdocs\hidnre\backend\backend\out\out\out\out\out\out\web.config
 C:\xampp\htdocs\hidnre\backend\backend\out\out\out\out\out\web.config
 C:\xampp\htdocs\hidnre\backend\backend\out\out\out\out\web.config
@@ -31,6 +32,11 @@ C:\xampp\htdocs\hidnre\backend\backend\out\out\out\out\out\out\appsettings.json
 C:\xampp\htdocs\hidnre\backend\backend\out\out\out\out\out\out\backend.deps.json
 C:\xampp\htdocs\hidnre\backend\backend\out\out\out\out\out\out\backend.runtimeconfig.json
 C:\xampp\htdocs\hidnre\backend\backend\out\out\out\out\out\out\backend.staticwebassets.endpoints.json
+C:\xampp\htdocs\hidnre\backend\backend\out\out\out\out\out\out\out\appsettings.Development.json
+C:\xampp\htdocs\hidnre\backend\backend\out\out\out\out\out\out\out\appsettings.json
+C:\xampp\htdocs\hidnre\backend\backend\out\out\out\out\out\out\out\backend.deps.json
+C:\xampp\htdocs\hidnre\backend\backend\out\out\out\out\out\out\out\backend.runtimeconfig.json
+C:\xampp\htdocs\hidnre\backend\backend\out\out\out\out\out\out\out\backend.staticwebassets.endpoints.json
 C:\xampp\htdocs\hidnre\backend\backend\out\backend.dll
 C:\xampp\htdocs\hidnre\backend\backend\out\backend.deps.json
 C:\xampp\htdocs\hidnre\backend\backend\out\backend.runtimeconfig.json
