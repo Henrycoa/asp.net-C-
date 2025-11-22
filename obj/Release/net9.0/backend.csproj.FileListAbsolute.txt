@@ -71,3 +71,9 @@ C:\xampp\htdocs\hidnre\backend\backend\obj\Release\net9.0\refint\backend.dll
 C:\xampp\htdocs\hidnre\backend\backend\obj\Release\net9.0\backend.pdb
 C:\xampp\htdocs\hidnre\backend\backend\obj\Release\net9.0\backend.genruntimeconfig.cache
 C:\xampp\htdocs\hidnre\backend\backend\obj\Release\net9.0\ref\backend.dll
+C:\xampp\htdocs\hidnre\backend\backend\bin\Release\net9.0\out\out\web.config
+C:\xampp\htdocs\hidnre\backend\backend\bin\Release\net9.0\out\out\appsettings.Development.json
+C:\xampp\htdocs\hidnre\backend\backend\bin\Release\net9.0\out\out\appsettings.json
+C:\xampp\htdocs\hidnre\backend\backend\bin\Release\net9.0\out\out\backend.deps.json
+C:\xampp\htdocs\hidnre\backend\backend\bin\Release\net9.0\out\out\backend.runtimeconfig.json
+C:\xampp\htdocs\hidnre\backend\backend\bin\Release\net9.0\out\out\backend.staticwebassets.endpoints.json
