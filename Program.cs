@@ -7,16 +7,15 @@ using System.Text;
 using MySql.Data.MySqlClient;
 
 // ---------------------------------------------------
-// CONFIGURATION - UPDATED WITH CORS
+// CONFIGURATION
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddControllers();
-
 // Register services
+builder.Services.AddControllers();
 builder.Services.AddSingleton<DatabaseHelper>();
 builder.Services.AddSingleton<AuthService>();
 
-// ADD CORS CONFIGURATION - CRITICAL FIX
+// Add CORS
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAll", policy =>
@@ -30,9 +29,13 @@ builder.Services.AddCors(options =>
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+// Railway PORT support
+var port = Environment.GetEnvironmentVariable("PORT") ?? "5000";
+builder.WebHost.UseUrls($"http://0.0.0.0:{port}");
+
 var app = builder.Build();
 
-// USE CORS - DAPAT NASA VERY TOP NG MIDDLEWARE
+// Middleware
 app.UseCors("AllowAll");
 
 if (app.Environment.IsDevelopment())
@@ -49,10 +52,9 @@ app.MapGet("/", () => "Backend is running!");
 app.MapControllers();
 
 app.Run();
-// ---------------------------------------------------
-// SINGLE FILE MODELS + DATABASE + SERVICE + CONTROLLER
 
-// ===== MODELS =====
+// ---------------------------------------------------
+// MODELS
 public class User
 {
     public string Email { get; set; } = string.Empty;
@@ -75,7 +77,8 @@ public class LoginResponse
     public string Message { get; set; } = string.Empty;
 }
 
-// ===== DATABASE HELPER =====
+// ---------------------------------------------------
+// DATABASE HELPER
 public class DatabaseHelper
 {
     private readonly IConfiguration _configuration;
@@ -110,7 +113,8 @@ public class DatabaseHelper
     }
 }
 
-// ===== AUTH SERVICE =====
+// ---------------------------------------------------
+// AUTH SERVICE
 public class AuthService
 {
     private readonly DatabaseHelper _dbHelper;
@@ -200,7 +204,8 @@ public class AuthService
     }
 }
 
-// ===== CONTROLLER =====
+// ---------------------------------------------------
+// CONTROLLER
 [ApiController]
 [Route("api/[controller]")]
 public class AuthController : ControllerBase
